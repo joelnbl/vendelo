@@ -1,0 +1,18 @@
+ <div>
+               <%= image_tag @product.photo, class: "img-fluid", width: 200 if @product.photo.attached?%>
+            </div>
+
+<h1 class="title">
+    <%= @product.title%>
+</h1>
+<p class="description">
+ <%= @product.description %>
+</p>
+<p class="price">
+ <%= @product.price %> $
+</p>
+
+
+<%= button_to "Delete", @product, method: :delete, data: { turbo_confirm: "Are you sure?" } %>
+<%= link_to "Editar", edit_product_path %>
+<%= link_to "Back", products_path %> 

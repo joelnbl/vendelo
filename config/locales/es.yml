@@ -1,0 +1,37 @@
+es:
+  activerecord:
+    errors:
+      models:
+        product:
+          attributes:
+            title: 
+              blank: "El título no puede estar en blanco"
+            description: 
+              blank: "La descripción no puede estar en blanco"
+            price:
+              blank: "El precio debe ser mayor que 0"
+            photo: 
+              blank: "La foto no puede estar en blanco"
+    models:
+      product: "Producto"
+    attributes:
+      product:
+        title: "Título"
+        description: "Descripción"
+        price: "Precio"
+        photo: "Foto"
+  common:
+    confirm: "Estás seguro?"
+  products:
+    index:
+      title: "Productos"
+    edit:
+      title: "Editar producto"
+    new:
+      title: "Añadir producto"
+    create:
+      created: "Tu producto se ha creado correctamente"
+    update:
+      updated: "Tu producto se ha actualizado correctamente"
+    destroy:
+      destroyed: "Tu producto se ha eliminado correctamente"

@@ -13,6 +13,6 @@
 </p>
 
 
-<%= button_to "Delete", @product, method: :delete, data: { turbo_confirm: "Are you sure?" } %>
+<%= button_to "Delete", @product, method: :delete, data: { turbo_confirm: t('common.confirm') } %>
 <%= link_to "Editar", edit_product_path %>
 <%= link_to "Back", products_path %> 

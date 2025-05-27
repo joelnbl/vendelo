@@ -13,15 +13,23 @@ en:
           photo:
             blank: "Photo can't be blank"
     models:
+      category: "Category"
       product: "Product"
     attributes:
+      category:
+        name: "Name"
       product:
         title: "Title"
         description: "Description"
         price: "Price"
         photo: "Photo"
   common:
+    add_product: "Add product"
+    add_category: "Add category"
+    edit: "Edit"
+    delete: "Delete"
     confirm: "Are you sure?"
+    back: "Go back"
   products:
     index:
       title: "Products"
@@ -35,3 +43,20 @@ en:
       updated: "Your product has been updated successfully"
     destroy:
       destroyed: "Your product has been deleted successfully"
+  categories:
+    category:
+      edit: "Edit"
+      delete: "Delete"
+    index:
+      title: "Categories"
+      new: "New category"
+    edit:
+      title: "Edit category"
+    new:
+      title: "New category"
+    create:
+      created: "Your category has been created successfully"
+    update:
+      updated: "Your category has been updated successfully"
+    destroy:
+      destroyed: "Your category has been deleted successfully"

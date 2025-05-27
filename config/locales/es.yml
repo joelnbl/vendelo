@@ -13,15 +13,23 @@ es:
             photo: 
               blank: "La foto no puede estar en blanco"
     models:
+      category: "Categoría"
       product: "Producto"
     attributes:
+      category:
+        name: "Nombre"
       product:
         title: "Título"
         description: "Descripción"
         price: "Precio"
         photo: "Foto"
   common:
+    add_product: "Añadir producto"
+    add_category: "Añadir categoría"
+    edit: "Editar"
+    delete: "Eliminar"
     confirm: "Estás seguro?"
+    back: "Volver"
   products:
     index:
       title: "Productos"
@@ -35,3 +43,20 @@ es:
       updated: "Tu producto se ha actualizado correctamente"
     destroy:
       destroyed: "Tu producto se ha eliminado correctamente"
+  categories:
+    category:
+      edit: "Editar"
+      delete: "Eliminar"
+    index:
+      title: "Categorías"
+      new: "Nueva categoría"
+    edit:
+      title: "Editar categoría"
+    new:
+      title: "Nueva categoría"
+    create:
+      created: "Tu categoría se ha creado correctamente"
+    update:
+      updated: "Tu categoría se ha actualizado correctamente"
+    destroy:
+      destroyed: "Tu categoría se ha eliminado correctamente"

@@ -25,7 +25,7 @@ en:
         photo: "Photo"
   common:
     add_product: "Add product"
-    add_category: "Add category"
+    categories: "Categories"
     edit: "Edit"
     delete: "Delete"
     confirm: "Are you sure?"

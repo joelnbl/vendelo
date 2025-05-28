@@ -25,7 +25,7 @@ es:
         photo: "Foto"
   common:
     add_product: "Añadir producto"
-    add_category: "Añadir categoría"
+    categories: "Categorías"
     edit: "Editar"
     delete: "Eliminar"
     confirm: "Estás seguro?"

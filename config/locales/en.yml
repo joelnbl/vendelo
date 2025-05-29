@@ -34,6 +34,8 @@ en:
   products:
     index:
       title: "Products"
+      min_price: "Min price"
+      max_price: "Max price"
     edit:
       title: "Edit product"
     new:

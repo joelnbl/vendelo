@@ -23,6 +23,8 @@ module Vendelo
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    # allow multiquery at the same time
+    config.active_record.async_query_executor = :global_thread_pool
 
     # available locales
     config.i18n.available_locales = [ :en, :es ]

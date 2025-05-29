@@ -30,6 +30,7 @@ es:
     delete: "Eliminar"
     confirm: "Estás seguro?"
     back: "Volver"
+    all: 'Todos'
   products:
     index:
       title: "Productos"

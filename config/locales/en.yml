@@ -30,6 +30,7 @@ en:
     delete: "Delete"
     confirm: "Are you sure?"
     back: "Go back"
+    all: 'All'
   products:
     index:
       title: "Products"
